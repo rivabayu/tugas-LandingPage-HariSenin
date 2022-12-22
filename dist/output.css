@@ -689,6 +689,10 @@ video {
   width: 400px;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -1022,6 +1026,16 @@ body{
     padding-right: 1.25rem;
   }
 
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .md\:pl-0 {
     padding-left: 0px;
   }
@@ -1047,6 +1061,10 @@ body{
   .md\:opacity-100 {
     opacity: 1;
   }
+
+  .md\:opacity-0 {
+    opacity: 0;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1069,5 +1087,10 @@ body{
   .lg\:px-48 {
     padding-left: 12rem;
     padding-right: 12rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
