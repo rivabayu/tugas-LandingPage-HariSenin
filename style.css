@@ -1,0 +1,22 @@
+
+#theText::before {
+    content: "Pindah Jalur Karir.";
+    animation: animate infinite 8s;
+    padding-left: 10px;
+    color: #2051E1;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Beda Jurusan.";
+    }
+
+    50% {
+        content: "Belum Lusus Kuliah.";
+    }
+
+    75% {
+        content: "Kurang Pengalaman.";
+    }
+}

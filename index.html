@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hariselasa.com</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<link rel="shortcut icon" href="asset/logo-page.jpg">
+<body>
+    <!-- navbar -->
+    <nav class="p-5 bg-white md:flex md:items-center md:justify-between lg:px-48">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center gap-10">
+                <img class="w-48" src="asset/logo.png" alt="">
+            </div>
+            <button class="text-3xl cursor-pointer pt-3 md:hidden block mx-3 group">
+                <span>
+                    <ion-icon name="menu"></ion-icon>
+                </span>
+                <div class="absolute top-0 -right-full h-screen w-8/12 bg-white border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
+                    <div class="flex flex-col items-center w-full font-poppins text-base cursor-pointer pt-10">
+                        <div class="py-5 px-6 w-full">Progam</div>
+                        <div class="py-5 px-6 w-full">Video Course</div>
+                        <div class="py-5 px-6 w-full">Corporate</div>
+                        <div class="flex items-center pt-6 gap-3">
+                            <div class="border border-[#0DAD8E] px-[15px] py-[8px] bg-white font-semibold text-[#0DAD8E] rounded-md hover:drop-shadow-2xl cursor-pointer">Daftar</div>
+                            <div class="bg-[#0DAD8E] px-[15px] py-[8px] font-semibold text-white rounded-md hover:drop-shadow-2xl cursor-pointer">Masuk</div>
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </div>
+            <div class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 transition-all ease-in duration-500">
+                    <div class="flex items-center my-6 md:my-0 cursor-pointer mx-4">
+                        <div class="px-1">Program</div>
+                        <span>
+                            <img class="w-5 h-5 items-center justify-center" src="asset/down.png" alt="">
+                        </span>
+                    </div>
+                    <div class="flex items-center my-6 md:my-0 cursor-pointer mx-4">
+                        <div class="px-1">Video Course</div>
+                        <span>
+                            <img class="w-5 h-5 items-center justify-center" src="asset/down.png" alt="">
+                        </span>
+                    </div>
+                    <div class="flex items-center my-6 md:my-0 cursor-pointer mx-4">
+                        <div class="px-1">Corporate</div>
+                        <span>
+                            <img class="w-5 h-5 items-center justify-center mx-4" src="asset/down.png" alt="">
+                        </span>
+                    </div>
+                <div class="flex items-center gap-3">
+                    <div class="border border-[#0DAD8E] px-[15px] py-[8px] bg-white font-semibold text-[#0DAD8E] rounded-md hover:drop-shadow-2xl cursor-pointer">Daftar</div>
+                    <div class="bg-[#0DAD8E] px-[15px] py-[8px] font-semibold text-white rounded-md hover:drop-shadow-2xl cursor-pointer">Masuk</div>
+                </div>
+            </div>
+    </nav> 
+    <!-- Hero -->
+    <section class="px-5 md:px-5 lg:px-48 bg-[#F7F7F7] items-start flex justify-between transition-all ease-in duration-500">
+        <div class="flex flex-col md:pt-20 pt-7 ">
+            <div class="">
+                <div class="flex text-bold text-3xl md:text-5xl font-bold font-poppins w-auto">Raih Karir Impian</div>
+                <div class="flex text-bold text-3xl md:text-5xl font-bold font-poppins text-[#0DAD8E] w-auto">Walau 
+                    <span id="theText"></span>
+                </div>
+            </div>
+            <div>
+                <p class="mr-6 w-[400px] text-base font-thin pt-5">Kuasai skill dan dapatkan pekerjaan impianmu.
+                    Sudah <id class="text-[#0DAD8E] font-bold">3385</id> alumni berhasil merai karir impian mereka.
+                    Apabila setelah lulus kamu belum berkerja dalam 365 hari,
+                    kamu berhak mendapatkan refund <id class="text-[#0DAD8E] font-bold">up to 110%</id> dari investasimu.
+                </p>
+            </div>
+            <button class=" hover:drop-shadow-lg items-center justify-center cursor-pointer mt-5 w-[400px] bg-[#0DAD8E] px-5 py-[10px] font-semibold text-white rounded-md">
+                Temukan Bootcamp Yang Tepat Untukmu
+            </button>
+            <div class="flex mt-5 -space-x-2">
+                <img class="w-12 rounded-full" src="asset/IMG-20150730-WA0011.jpg" alt="">
+                <img class='w-12 rounded-full' src="asset/IMG-20150730-WA0018.jpg" alt="">
+                <img class='w-12 rounded-full' src="asset/IMG-20150908-WA0051.jpg" alt="">
+                <div class="px-9 flex flex-col">
+                    <img src="asset/bintang-removebg-preview.png" class="w-[70px]" alt="">
+                    <p class="pt-4 text-sm text-slate-500 font-semibold">(4.9/5 dari 3385 Alumni)</p>
+                </div>
+            </div>
+            <img src="asset/hero.png" class="mt-[200px] md:flex lg:hidden w-auto" alt="">
+        </div>
+        <div class="flex justify-between">
+            <img src="asset/hero.png" class="mt-[200px] hidden md:hidden lg:flex h-full " alt="">
+        </div>
+    </section>
+</body>
+</html>
