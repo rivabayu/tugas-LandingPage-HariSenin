@@ -1,5 +1,5 @@
 
-#theText::before {
+/* #theText::before {
     content: "Pindah Jalur Karir.";
     animation: animate infinite 8s;
     padding-left: 10px;
@@ -19,4 +19,54 @@
     75% {
         content: "Kurang Pengalaman.";
     }
+} */
+
+
+.popup{
+    background-color: rgba(0, 0, 0, 0.37);
+    background-blend-mode: color;
+    background-size: cover;
 }
+
+.the-text p{
+    margin: 0;
+    overflow: hidden;
+}
+
+.the-text p span{
+    color:#2c41ff;
+    display: inline-block;
+    display: none;
+}
+
+.animate-text span.text-in{
+    display: block;
+    animation: textIn .5s ease;
+} 
+
+.animate-text span.text-out{
+    animation: textOut .5s ease;
+}
+
+@keyframes textIn{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes textOut{
+	0%{
+		transform: translateY(0%);
+	}
+	100%{
+		transform: translateY(-100%);
+
+	}
+}
+
+.popup.open{
+    display: flex;
+}
+
